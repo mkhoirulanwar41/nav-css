@@ -10,7 +10,8 @@
 header {
     position: relative;
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: flex-end; */
+    justify-content: space-between;
     align-items: center;
     padding: 20px 50px;
     box-shadow: 0 1px 8px #ddd;
@@ -24,7 +25,7 @@ nav ul {
 }
 
 #nav-title {
-    margin-right: auto;
+    /* margin-right: auto; */
     font-size: 24px;
     color: white;
 }
@@ -62,7 +63,7 @@ nav ul li a:hover {
     }
     nav ul li  {
         display: block;
-        margin: 15px 0;
+        margin: 5px 0;
     }
 
     nav ul li a {
